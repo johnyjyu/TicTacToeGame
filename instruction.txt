@@ -1,0 +1,14 @@
+1) Instructions on how to compile and run your program, and 
+Open a terminal and cd into the project source file. 
+Then run the following commands: 
+javac GameMain.java
+java GameMain
+Then, play the game. 
+The status information will be shown on the terminal. 
+
+2) A high-level description of your program design.
+We adopt Object Oriented Design, and separate the functions of the game into the following different modules. 
+GameMain.java is the main and starting class, which contains the entry point - main method. 
+In AIPlayerMinimaxCutoff.java, we implemented the required heuristic eval function. 
+In AIPlayerBetterHuristic.java, we implemented a better heuristic eval function
+AbstractAIPlayer.java  AIPlayerBetterHuristic.java  AIPlayerMinimaxCutoff.java  Board.java  Cell.java  GameMain.java  GameState.java  Seed.java
